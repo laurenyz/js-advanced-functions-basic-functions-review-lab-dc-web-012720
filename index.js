@@ -31,7 +31,7 @@ const Calculator = {
 function actionApplyer(int, arr) {
   let sp = int
   for (let i=0; i<arr.length; i++){
-    sp = arr[int](sp)
+    sp = arr[i](sp)
   }
   return sp
 }
