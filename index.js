@@ -15,7 +15,7 @@ function wrapAdjective(punc = "*") {
 
 function actionApplyer(int, arr) {
   let sp = int
-  for (i=0; i<arr.length; i++){
+  for (let i=0; i<arr.length; i++){
     sp = arr[int](sp)
   }
   return sp
