@@ -5,3 +5,9 @@ function mondayWork(string = "go to the office") {
 function saturdayFun(string = "roller-skate") {
   return `This Saturday, I want to ${string}!`
 }
+
+function wrapAdjective(punc = "*") {
+  function (string = "special") {
+    return `You are ${string}${punc}`
+  }
+}
