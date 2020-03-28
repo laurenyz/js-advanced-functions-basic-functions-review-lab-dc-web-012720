@@ -8,7 +8,7 @@ function saturdayFun(string = "roller-skate") {
 
 function wrapAdjective(punc = "*") {
   let innerFunction = function(string = "special") {
-    return `You are ${punc}${string}${punc}`
+    return `You are ${punc}${string}${punc}!`
   }
   
   return innerFunction()
